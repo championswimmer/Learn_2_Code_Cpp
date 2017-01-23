@@ -13,3 +13,8 @@ project(inout)
     add_executable(inout ${INOUT_SRC})
 
 
+project(pointers)
+
+    set(PTR_SRC pointers/main.cpp pointers/basicptrs.cpp pointers/basicptrs.h)
+    add_executable(pointers ${PTR_SRC})
+
