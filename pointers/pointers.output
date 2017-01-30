@@ -1,0 +1,13 @@
+============== DOING POINTERS OPS ==============
+Value of a = 10
+Pointer to a = 0x7ffdd725f1f4
+Value of data at pointer to a = 10
+
+
+ ============ POINTER ARGUMENTS ===========
+a = 10
+a = 0x7ffdd725f1ec
+ a = 30
+m = 10
+n = 21
+o = 31
