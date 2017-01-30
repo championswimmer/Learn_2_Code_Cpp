@@ -18,3 +18,8 @@ project(pointers)
     set(PTR_SRC pointers/main.cpp pointers/basicptrs.cpp pointers/basicptrs.h pointers/ptrargs.cpp pointers/ptrargs.h pointers/arraypointers.cpp pointers/arraypointers.h)
     add_executable(pointers ${PTR_SRC})
 
+project(linkedlist)
+
+    set(LL_SRC linkedlist/main.cpp linkedlist/IntLinkedList.cpp linkedlist/IntLinkedList.h)
+    add_executable(linkedlist ${LL_SRC})
+
