@@ -20,6 +20,6 @@ project(pointers)
 
 project(linkedlist)
 
-    set(LL_SRC linkedlist/main.cpp linkedlist/IntLinkedList.cpp linkedlist/IntLinkedList.h)
+    set(LL_SRC linkedlist/main.cpp linkedlist/IntLinkedList.cpp linkedlist/IntLinkedList.h linkedlist/LinkedList.cpp linkedlist/LinkedList.h)
     add_executable(linkedlist ${LL_SRC})
 

@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "IntLinkedList.h"
+#include "LinkedList.h"
 
 int main () {
     IntLinkedList ill = *(new IntLinkedList);
@@ -13,5 +14,7 @@ int main () {
     ill.printList();
     ill.addToTop(11);
     ill.printList();
+
+    LinkedList<int> linkedList = new LinkedList<int>;
 }
 
