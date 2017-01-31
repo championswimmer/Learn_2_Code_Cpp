@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+if [ -z ${2} ]; then
+    SRC=${1}.cpp
+    EXE=${1}.app
+    OP=${1}.output
+
+else
+    SRC=${1}/${2}.cpp
+    EXE=${1}/${2}.app
+    OP=${1}/${2}.output
+fi
+
+
+g++ ${SRC} -o ${EXE}
+${EXE} | tee ${OP}

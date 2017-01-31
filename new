@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+if [ -z ${2} ]; then
+    FILE=${1}.cpp
+else
+    DIR=${1}
+    FILE=${1}/${2}.cpp
+    mkdir -p ${DIR}
+fi
+
+
+
+touch ${FILE}
+
+echo "#include <iostream>" >> ${FILE}
+echo "" >> ${FILE}
+echo "using namespace std;" >> ${FILE}
+echo "" >> ${FILE}
+echo "int main() {" >> ${FILE}
+echo "}" >> ${FILE}
