@@ -13,4 +13,6 @@ fi
 
 
 g++ ${SRC} -o ${EXE}
-${EXE} | tee ${OP}
+rm ${OP}
+touch ${OP}
+tee -a ${OP} | ${EXE} | tee -a ${OP}
