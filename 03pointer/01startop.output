@@ -1,5 +1,5 @@
 a  = 10
-&a = 0x7ffd0b40c5dc
- b = 0x7ffd0b40c5dc
+&a = 0x7fffa8cba61c
+ b = 0x7fffa8cba61c
 *b = 10
-&b = 0x7ffd0b40c5e0
+&b = 0x7fffa8cba620
